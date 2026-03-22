@@ -1,32 +1,24 @@
 Hero Content
 - What is Hero Content?
-- Typically a piece of content. Either a video or PDF. 
+- The problem
+
+
+What is Hero Content?
+- A piece of content, either a video or pdf, that we are using to drive engagement. 
+- Coppperberg is the latest example
 
 Problem: 
-- Often there is no signle campaign that drives activity towards the the HERO content. 
-- This content will be part of other campaigns. 
-
-Examples: 
-1. Coppperberg
-
-Related: 
-- Machinery linkedin campaign
-- Outreach content
-- Promoted on the website
-- Marketo Marketing Email campaign
-
-Other: 
-- There is not just one piece of content, but group of content. 
-- There is the main copperberg report and then 10 other smaller pieces of content that is related to is. 
-
-Problem: 
-- We have reached targets for this content
+- With a normal campaign, we can link all activities back to the campaign, and (assuming the activity is linked to an account), then we can attribute results to it. 
+- But the problem with Hero Content is that, often there is no single campaign that drives activity towards the the HERO content. In other words, there may be a main campaign for that Hero content, but this content will be used in other campaigns. 
+For example: 
+    - There is a main Copperburg campaign, that is driving activity towards the report. 
+    - But the content is gated on the website, so people who find it via other Paid Campaigns can also download it. 
+    - And we are promoting this content in other campaigns, for example, in our standard outreach sequences used by the AEs. 
+    - So how can I know the full impact of this Hero Content?
 
 
 Potential Solution: 
-- For all direct campaigns, we can clearly tag this 
-- For all indirect activity, we need to be able to 'tag' each campaign as including copperberg
-- What about web visits:
-- If it's unmaksed then we 
+- For all direct campaigns, there is no issue
+- For all indirect activity, we need to be able to 'tag' each campaign as including copperberg. 
 
 

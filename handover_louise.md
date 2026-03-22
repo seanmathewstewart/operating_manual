@@ -1,8 +1,3 @@
-Demi: 
-- Account Lists
-- Send list of account nurture reasons
-
-
 Louise: 
 
 - CRM: 

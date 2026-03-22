@@ -1,4 +1,0 @@
-- GMV
-- Surveys
-- Contract Indexation
-- 

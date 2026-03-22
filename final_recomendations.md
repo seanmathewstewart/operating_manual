@@ -10,14 +10,14 @@ We are not in control.
 
 Four Key Areas: 
 1. Build the Machine => Standard Operating Procedures
-2. Simple and Faster
+2. Optimize for speed and simplicity, not perfection
 3. Business Intelligence
 
 There are 3 things you all need to do: 
 
 Build the Machine
 
-Sana is not a team. Sana is a group of individuals that all work hard, do their best, but do not contribute to the overall system. This isn't their fault
+Sana is not a team. Sana is a group of individuals that all work hard, do their best, but do not contribute to the overall system. 
 
 Focus and Speed
 
@@ -46,11 +46,9 @@ And while I would love for this to be a strategy issue, at least on the commerci
 2. How we surface and solve problems 
 
 What is the issue?
-- We are not process driven
-- Everything is ad-hoc
-- Everything is urgent
+- We are not process driven, everything is ad-hoc
+- We lack focus, everything is urgent
 - It's always more and faster
-- There is no focus
 - There is no follow through
 - Projects are not scoped. 
 - Plans are not followed. 
