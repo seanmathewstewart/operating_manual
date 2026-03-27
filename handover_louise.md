@@ -69,7 +69,7 @@ Account Based Fields => CRM pushes to Hubspot
 - Bow Tie Stage (WIP)
 - Account Country, Territory, Demand Center
 - Parent and Ultimate Parent Account
-- ERP System => Although, we may want a two way sync here
+- ERP System => Although, we may want a two way sync here for form fills
 - Industry Classification
 - Business Type
 - Business Activity

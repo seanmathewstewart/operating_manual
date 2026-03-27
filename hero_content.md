@@ -16,9 +16,9 @@ For example:
     - And we are promoting this content in other campaigns, for example, in our standard outreach sequences used by the AEs. 
     - So how can I know the full impact of this Hero Content?
 
-
 Potential Solution: 
 - For all direct campaigns, there is no issue
-- For all indirect activity, we need to be able to 'tag' each campaign as including copperberg. 
+- For all indirect activity, we need to be able to 'tag' each campaign as including copperberg. Then we can say that copperberg has 'influenced' these campaigns. 
+
 
 

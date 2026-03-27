@@ -1,8 +1,3 @@
-- GMV
-- Surveys
-- Contract Indexation
-
-
 Saminda
 1. data landscape and infrastructure
 2. power bi datasets
@@ -66,7 +61,7 @@ Applications
 
 ### Data Infrastructure
 - Mostly, you will not be in charge of data infrastrcuture. In the medium term, the Data Value Services team will be in charge of the new datalake. But they are not ready yet. So in the short term, you will manage a few data pipelines. 
-- There are 7 repos I am leaving you, these will be listed below. All follow the same structure: 
+- There are 6 repos I am leaving you, these will be listed below. All follow the same structure: 
     1. Gather the data from either the databases or the FiveTran datalake
     2. Transform the data for the dataset using SQL executed using DuckDb
 - If you don't know SQL yet, don't worry, I also didn't know any SQL when I started this job. Between AI and YouTube you will pick it up quickly. 
@@ -82,7 +77,7 @@ Potential Improvements:
 - Let's say we just deployed a new column to the account table in CRM, and now we need to report on it. 
 - All new columns are automatically added to the database, and are available for you to use. 
 - So to add this column to your data models, you would: 
-1. Go t0 the accounts_etl repo
+1. Go to the accounts_etl repo
 2. In the bronze/sql folder, add the new column to your accounts.sql file
 3. In the silver/sql folder, add the new column to your accounts_silver.sql file
 
@@ -99,22 +94,16 @@ So just be aware if you are removing a column from one of these tables.
  
 ### Power BI Datasets
 - There is really only 2 datasets that you will need to manage: revenue_dataset and paidcampaigns_datset
-- You'll notice that there is very little happening in pbi itself, just the final aggregations. 
+- You'll notice that there is very little happening in pbi reports themself, just the final aggregations. 
 - This is a pure constellation model. All Fact tables only have one layer of dimensions around them. 
 - All metrics are grouped by topic, Accounts, Opps, CSM, etc. 
+- Reporting Documentation: https://ismegroup.sharepoint.com/:x:/s/SalesOperations/EUGA7_aC4DdHhewzpp07wTIB6yo2DOEkJqlJBQGeLVLI0w?e=jdnMD8
 
 
 ### Power BI Dataflows
 - You can depreciate all dataflows EXCEPT for the Commercial Targets dataflow. This is the dataflow that we use to transform the Commercial Targets excel sheet. Finance is in charge of this sheet. Coordinate with them. 
 
 My suggestion, disable load on all the tables in the dataflow. Wait a week to see if anything breaks. If nothing, then proceed to delete. 
-
-Legacy Stuff to remove:
-- Dataflows: 
-    - Commercial Low Frequency
-    - Commercial High Frequency
-    - Commercial
-
 
 ### Reports
 - There are 4 main reports: 
@@ -145,13 +134,27 @@ Access:
 - Azure DevOps
 - Monday.com
 
+Getting Started:
+1. Data
+    - Sharepoint: https://ismegroup.sharepoint.com/sites/SanaCommercialReporting
+    - 
+    - Sync Sharepoint Folder to your local machine: https://ismegroup.sharepoint.com/sites/SanaCommercialReporting/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FSanaCommercialReporting%2FShared%20Documents%2FGeneral%2FPower%20BI%2FLive&viewid=3d897e5a%2D62e3%2D4057%2Dac1a%2D93b0a5abbc06
+    - revenue_dataset and paid_campaigns
+        - Download them. Refresh them. Publish them. 
+    - Azure Devops: https://sanacommerce.visualstudio.com/Business%20Insights
+        - repos => Everything with revops_
+        - etl => Everything with _etl
 
-Note: In FiveTran, my account is authenticating the connection for several applications. I've flagged with Lalantha. 
 
+Welcome Saminda!
 
-### Projects
-- Report Alignment - Align sales, marketing and CSM reports around
-- Commercial Analysis - Get a grip on the numbers
-- Fix Surveys ETL
-- Update Churn Actual reporting
-- 
+Here's how to get started: 
+1. Access the Power BI Workspace: https://app.powerbi.com/groups/2885432c-ba3f-4512-a78c-3fe2df18f65e/list?experience=power-bi
+2. The pbix files are stored in this sharepoint: Sharepoint: https://ismegroup.sharepoint.com/sites/SanaCommercialReporting
+3. Sync this folder to your local machine: https://ismegroup.sharepoint.com/sites/SanaCommercialReporting/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FSanaCommercialReporting%2FShared%20Documents%2FGeneral%2FPower%20BI%2FLive&viewid=3d897e5a%2D62e3%2D4057%2Dac1a%2D93b0a5abbc06
+4. There are two datasets to manage: revenue_dataset and the paid_campaigns dataset. 
+5. Access our devops environment: https://sanacommerce.visualstudio.com/Business%20Insights
+    - repos => Everything with revops_
+    - etl => Everything with _etl
+6. Download 
+

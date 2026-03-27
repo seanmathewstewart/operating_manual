@@ -1,6 +1,6 @@
 I don't have a good recomendation for how to divide work between the BVS and BIU. I am still lack the context of what the vision for the DVS is. 
 
-IMO - there should be a brick wall between what the product needs to power features, and the what the operations team needs to run the company. The product team needs to optimize for stability and the company needs to optimize for speed and simplicty. I see these two competing priorities being at odds with each other. 
+IMO - there should be a brick wall between what the product needs to power features, and the what the operations team needs to run the company. The product team needs to optimize for stability and the company needs to optimize for speed and simplicty. I see these two competing priorities being at odds with each other.
 
 The short term: 
 - There are several data pipelines being run in databricks for our operational reporting. Saminda and the BIU will manage these, with the support of the DVS. 
@@ -33,4 +33,5 @@ What we need most is:
 1. A vision for what the DVS does? Where do you offer value? 
 2. Practical boundaries for what the DVS does vs the BIU
 3. A shared way of working, to ensure aliagnment. 
+4. A roadmap for the DVS, so that the BIU can plan
 

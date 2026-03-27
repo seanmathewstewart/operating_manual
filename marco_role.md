@@ -4,8 +4,8 @@ Operations Analyst
 - Application level reporting - CRM and Hubspot
 - Front-end Power BI reporting
 - Ad-hoc analysis
-- Assists (but doens't ownr) Data Quality and Data Governance
-- Assists (but doesn't own) data enrichment via data vendors
+- Assists (but doens't own) Data Quality and Data Governance. Such as Contact and Account deduplication.
+- Assists (but doesn't own) data enrichment via data vendors. Such as RingLead.
 
 Not part of the job: 
 - Data enrichment
