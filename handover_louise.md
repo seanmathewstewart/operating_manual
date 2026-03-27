@@ -52,7 +52,7 @@ Questions:
 - Probably Yes
     - Unmasked Web Traffic => LeadInfo
     - Intent => Zoominfo, G2
-- Need to think about it
+- Need to think about it (but probably yes)
     - Outreach => Sales Emails, Phonecalls, Tasks
 
 Single Source of Truth (SSOT)
